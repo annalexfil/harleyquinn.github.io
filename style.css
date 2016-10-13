@@ -1,0 +1,178 @@
+body {
+     background-image: url('myfon.gif');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-position: top center;
+    font: normal small Arial, Helvetica, cursive, sans-serif;
+    font-size: 16px; 
+}
+
+    
+#container {
+            /*background:#99CC99;*/
+            
+            margin: 0px auto ;
+            width: 900px;
+            height: 790px;
+}
+#header {
+	height: 100px;
+	width: 900px;
+	margin-top: 20px;
+	
+}
+#menuu {
+           
+            float: left;
+            width: 200px;
+            height: 680px;
+ 			color: #23ddd1; 
+			font-size:25px; 
+			margin: 0px;
+			padding: 0px;
+   			display: block; 
+   			opacity: 0.8;  
+
+}
+
+#menuu ul {
+    list-style-type: none;
+    float: right;
+    margin: 0px;
+	padding: 0px;
+
+   }
+   #menuu a {
+  background-color: black;
+  color: #23ddd1;
+  padding: 0px;
+  text-decoration: none;
+  font-weight: bold;
+ /* border-left: 1px solid #23ddd1;*/
+  display: block;
+  width: 200px;
+
+
+}
+ a.button {
+  display:block;
+  float:left;
+  margin: 5px;
+  color:#fff;
+  text-align:center;
+  font-size:24px;
+  cursor: pointer;
+  text-decoration: none;
+  padding:10px;
+  border: 1px solid rgba(0,0,0,0.5);
+  border-bottom: 3px solid rgba(0,0,0,0.5);
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5), /* Exterior Shadow */
+    inset 0 1px rgba(255,255,255,0.3), /* Top light Line */
+    inset 0 10px rgba(255,255,255,0.2), /* Top Light Shadow */
+    inset 0 10px 20px rgba(255,255,255,0.25), /* Sides Light Shadow */
+    inset 0 -15px 30px rgba(0,0,0,0.3); /* Dark Background */
+  -webkit-box-shadow: 0 2px 8px rgba(0,0,0,0.5),
+    inset 0 1px rgba(255,255,255,0.3),
+    inset 0 10px rgba(255,255,255,0.2),
+    inset 0 10px 20px rgba(255,255,255,0.25),
+    inset 0 -15px 30px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0 2px 8px rgba(0,0,0,0.5),
+    inset 0 1px rgba(255,255,255,0.3),
+    inset 0 10px rgba(255,255,255,0.2),
+    inset 0 10px 20px rgba(255,255,255,0.25),
+    inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+
+a.button:hover {
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  -moz-opacity:0.7;
+  -khtml-opacity: 0.7;
+}
+/*#menuu ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera 
+    padding-left: 0;}*/
+#content {
+	background-image: url(glavn.gif);
+	width: 700px;
+	height: 680px;
+	float: right;
+}
+#content1 {
+	background-image: url(glavn.gif);
+	width: 700px;
+	height: 680px;
+	float: right;
+}
+#content21 {
+	background-image: url(about.gif);
+	width: 300px;
+	height: 680px;
+  margin-left: 200px;
+}
+
+#content22 {
+	background: white;
+	width: 400px;
+	height: 660px;
+  float: right;
+  text-indent: 20px;
+  padding-top: 20px;
+}
+#content31 {
+  background-image: url(history.gif);
+  width: 700px;
+  height: 480px;
+  float: right;
+}
+
+#content32 {
+  color: #C7CD42;
+  width: 700px;
+  height: 250px;
+  float: right;
+  padding-top: 10px;
+}
+
+
+#content41 {
+  background-image: url(comics1.gif);
+  width: 265px;
+  height: 660px;
+  margin-left: 200px;
+}
+
+#content42 {
+  background-image: url(comics.gif);
+  width: 444px;
+  height: 660px;
+  float: right;
+}
+
+#content51 {
+  width: 700px;
+  height: 206px;
+  float: right;
+}
+
+#content52 {
+  color: #23ddd1;
+  width: 700px;
+  height: 250px;
+  float: right;
+  padding-top: 10px;
+}
+
+#clear {
+            clear:both;
+}
+#footer {
+	color: #23ddd1;
+	width: 900px;
+	height: 20px;
+}
+
+
